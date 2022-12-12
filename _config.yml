@@ -1,10 +1,10 @@
-title: hanshu-npu.github.io
+title: hanshu.org
 author:
   name: han shu
   email: contact@hanshu.org
-description: > # this means to ignore newlines until "show_excerpts:"
-  A blog website for han shu.
-  This blog website is using the theme jekyll/minima.
+# description: > # this means to ignore newlines until "show_excerpts:"
+#   A blog website for han shu.
+#   This blog website is using the theme jekyll/minima.
 
 site_name: hanshu.org
 last_update: 2022-06
