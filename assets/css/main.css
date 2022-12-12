@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.divcss {
+    border:1px solid black;
+    /* width: 25%; */
+}
+
+
+.top-panel {
+    padding: 15px;
+    background-color: rgb(180, 0, 0);
+    color: white;
+}
+
+.top-panel-text{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bottem-panel-text, .pos-text {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.pos-text {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-size: medium;
+}
+
+.body-text {
+    padding-bottom: 10px;
+}
+
+.quick-link {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bottem-panel {
+    padding : 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+.bottem-link {
+    margin: 0 auto;
+    padding-bottom: 10px;   
+    font-size: small;
+}
+
+.content {
+    display: none;
+    width: 100%;
+}
+
+.button {
+    cursor: pointer; 
+    text-decoration: underline; 
+    color: blue;
+}
+
+.copyright {
+    font-family: monospace;
+    font-size: smaller;
+}

@@ -1,0 +1,15 @@
+- item: 1
+  degree: Bachelor's Degree
+  begin: 2019
+  end: present
+  major: computer science and technology
+  depart: Honors College(HC)
+  scho_name: Northwestern Polytechnical University(NWPU)
+
+# - item: 2
+#   degree: Doctoral Degree
+#   begin: 2023
+#   end: present
+#   major: computer science and technology
+#   depart: School of Computer Science
+#   scho_name: Northwestern Polytechnical University(NWPU)

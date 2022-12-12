@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<style type="text/css">
+  .head-img {
+      width: 15%;
+      margin-left: 5%;
+      display: inline-block;
+  }
+  .head-text {
+      margin-left: 5%;
+      display: inline-block;
+  }
+</style>
+
+<div class = "pos-text">
+    <div  style="display:flex;align-items:center;">
+        <div class = "head-img"><img width="100%" src="/assets/img/profile.png"></div>
+        <div class = "head-text">
+            <b><font size="6">HAN SHU</font></b><br>
+            <h4>Bachelor's Degree Candidate</h4>
+            <h4>Computer Science and Technology</h4>
+            <h4>Northwestern Polytechnical University(NWPU)</h4>                    
+            <h4>Xi'an, Shaanxi, China</h4><br>
+            <h4>E-MAIL:</h4>
+            {% for item in site.data.mail %}
+            <h5><a href="mailto:{{ item.mail }}">{{ item.mail }}</a></h5>
+            {% endfor %}
+        </div>
+    </div><br>
+    <div>
+        <h3>Short Biography:</h3>
+        <ul>
+        {% for item in site.data.bio %}
+        <li><b>{{ item.degree }}</b>: {{ item.begin }} - {{ item.end }}, {{ item.major }}, {{ item.depart }}, {{ item.scho_name }}.</li>
+        {% endfor %}
+        </ul>
+    </div><br>
+    <div>
+      <!-- - item: 1
+        authors: 
+        artical_name: 
+        DOI: 
+        mag_name: 
+        level: 
+        code:  -->
+        {% if site.data.pub %}
+        <h3>Publications:</h3>
+        <ul>
+        {% for year in site.data.pub %}
+        <li><h4><b>{{ year[0] }}</b></h4></li>
+            <ol>
+            {% for item in year[1] %}
+                <li>
+                    {{ item.authors }}. 
+                    {{ item.artical_name }} <a href="{{ item.DOI }}">[DOI]</a>, 
+                    <b>{{ item.mag_name }}</b>. 
+                    {% if item.level %}
+                    ({{ item.level }}) 
+                    {% endif %}
+                    {% if item.code %}
+                    <a href="{{ item.code }}">[code]</a>
+                    {% endif %}.
+                </li>
+            {% endfor %}
+            </ol>
+        {% endfor %}
+        </ul><br>
+        {% endif %}
+    </div>
+    <div>
+        {% if site.data.hon %}
+        <h3>Honors:</h3>
+        <ul>
+        {% for item in site.data.hon %}
+        <li>{{ item.date }} {{ item.details }}.</li>
+        {% endfor %}
+        </ul><br>
+        {% endif %}
+    </div>
+    <div>
+        {% if site.data.inter %}
+        <h3>Intern Experience:</h3>
+        <ul>
+        {% for item in site.data.inter %}
+        <li><b>{{ item.date }}</b>: {{ item.details }}.</li>
+        {% endfor %}
+        </ul><br>
+        {% endif %}
+    </div>
+    <div class="copyright">
+        <p>Last update: {{ site.last_update }}</p>
+    </div>
+</div>
