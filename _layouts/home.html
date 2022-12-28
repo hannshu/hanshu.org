@@ -4,7 +4,7 @@ layout: default
 
 <style type="text/css">
   .head-img {
-      width: 15%;
+      width: 18%;
       margin-left: 5%;
       display: inline-block;
   }
@@ -19,10 +19,10 @@ layout: default
         <div class = "head-img"><img width="100%" src="/assets/img/profile.png"></div>
         <div class = "head-text">
             <b><font size="6">HAN SHU</font></b><br>
-            <h4>Bachelor's Degree Candidate</h4>
-            <h4>Computer Science and Technology</h4>
-            <h4>Northwestern Polytechnical University(NWPU)</h4>                    
-            <h4>Xi'an, Shaanxi, China</h4><br>
+            <h4>{{ site.job }}</h4>
+            <h4>{{ site.work_pos1 }}</h4>
+            <h4>{{ site.work_pos }}</h4>
+            <h4>{{ site.location }}</h4><br>
             <h4>E-MAIL:</h4>
             {% for item in site.data.mail %}
             <h5><a href="mailto:{{ item.mail }}">{{ item.mail }}</a></h5>
@@ -38,13 +38,6 @@ layout: default
         </ul>
     </div><br>
     <div>
-      <!-- - item: 1
-        authors: 
-        artical_name: 
-        DOI: 
-        mag_name: 
-        level: 
-        code:  -->
         {% if site.data.pub %}
         <h3>Publications:</h3>
         <ul>

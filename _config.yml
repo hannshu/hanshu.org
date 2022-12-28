@@ -1,46 +1,24 @@
 title: hanshu.org
 author:
   name: han shu
-  email: contact@hanshu.org
-# description: > # this means to ignore newlines until "show_excerpts:"
-#   A blog website for han shu.
-#   This blog website is using the theme jekyll/minima.
+  email: tom.shuhan@gmail.com
 
 site_name: hanshu.org
 last_update: 2022-06
 
-show_excerpts: false # set to true to show excerpts on the homepage
+job: Bachelor's Degree Candidate
+location: Xi'an, Shaanxi, China
+work_pos1: Computer Science and Technology
+work_pos: Northwestern Polytechnical University(NWPU)
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+icon_link: https://cdn.jsdelivr.net/gh/R1szW7xqoVdA/Vu-jewdLEw--f-_-/icon/icon-main.ico
+svg_link: https://cdn.jsdelivr.net/gh/R1szW7xqoVdA/Vu-jewdLEw--f-_-/icon/icon.svg
+
+show_excerpts: false 
+
 minima:
   date_format: "%b %-d, %Y"
 
-  # # generate social links in footer
-  # social_links:
-  #   - { platform: pyralab,        user_url: "https://pyralab.org" }
-  #   # - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #   # - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-  #   # - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-  #   # - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-  #   # - { platform: github,         user_url: "https://github.com/jekyll/minima" }
-  #   # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  #   # - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-  #   # - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-  #   # - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-  #   # - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
-  #   # - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
-  #   # - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
-  #   # - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #   # - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-  #   # - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
-# Build settings
 theme: minima
 
 plugins:
